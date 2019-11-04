@@ -1,0 +1,32 @@
+{
+    "name": "lafranceinsoumise/webp-simple",
+    "description": "Opiniated WebP plugin compatible with Nginx, fork of WebP Express",
+    "type": "project",
+    "license": "GPL-3.0",
+    "require": {
+        "rosell-dk/webp-convert": "^2.3.0",
+        "rosell-dk/dom-util-for-webp": "^0.3.1"
+    },
+    "require-dev": {
+    },
+    "scripts": {
+        "ci": [
+            "@composer validate --no-check-all --strict"
+        ]
+    },
+    "autoload": {
+      "psr-4": {"WebPSimple\\": "classes/"}
+    },
+    "authors": [
+      {
+        "name": "Jill Royer",
+        "homepage": "https://jillroyer.me",
+        "role": "Fork author"
+      },
+      {
+        "name": "Bjørn Rosell",
+        "homepage": "https://www.bitwise-it.dk/contact",
+        "role": "Original project author"
+      }
+    ]
+}
