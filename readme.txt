@@ -23,6 +23,8 @@ Simple WebP is very much inspired by the more complete (and complex to install) 
 * [WebPConvert](https://github.com/rosell-dk/webp-convert): For converting images to webp
 * [DOM Util for WebP](https://github.com/rosell-dk/dom-util-for-webp): For the Alter HTML functionality
 
+Because Simple WebP use `<picture>` tags, it does not need to use `.htaccess` files like many other WebP plugins do. For this reason, it works out-of-the-box with many servers, and not only Apache.
+
 == Frequently Asked Questions ==
 
 = Are there any settings ? =
