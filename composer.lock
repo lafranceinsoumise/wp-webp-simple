@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "37ab49bcbfab75f5c49c5cf8221f2c0d",
+    "content-hash": "461775137e7902c4f409bbbc91755551",
     "packages": [
         {
             "name": "rosell-dk/dom-util-for-webp",
